@@ -1,0 +1,272 @@
+body {
+    background-color: #F0F0F0 !important;
+}
+
+.AquaBidIcon {
+    height: 90%;
+    margin-left: 25px;
+}
+
+.TopBar{
+    background-color: #DDEBFF;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.accountCircle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #434343;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.accountCircle:hover {
+    background: #999999;
+  }
+
+.accountImage {
+    height: 50px;
+    width: 50px;
+}
+
+.SideBar {
+    margin-top: 120px;
+    padding: 0;
+    width: 312px;
+    background-color: #ffffff;
+    position: fixed;
+    height: 90%;
+    overflow: auto;
+    font-family: Inter;
+    z-index: 1;
+  }
+
+.SearchBar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+}
+
+.SearchInput {
+    border-radius: 25px;
+    width:292px;
+    height:32px;
+
+    
+}
+
+input[type="search"] {
+    background-color : #E9E9E9; 
+    border: none;
+    font-size: 20px;
+    font-family: Inter;
+    text-align: center;
+
+    background-image: url("img/searchGlass.png");
+    background-repeat: no-repeat;
+    background-position-x: 7px;
+    background-position-y: center;
+    
+  }
+
+::placeholder {
+    color: #666666;
+  }
+  
+
+
+.CreateNewListing {
+    margin-top: 18px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.NewListButtonContainer {
+    width: 200px;
+    height: 30px;
+}
+
+.CreateNewListingMobile {
+
+    position: fixed;
+    bottom: 25px;
+    right: 25px; 
+
+    display: none;
+
+}
+
+.OtherElements {
+    margin-top: 50px;
+    font-family: Inter;
+    
+}
+
+.sideIcons {
+    width: 34px;
+}
+
+.iconPair {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconPair.a {
+    text-align: left;
+}
+
+
+
+.TopOfFishBar {
+    display: flex;
+    align-items: center;
+
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 150px;
+
+}
+
+.textHolder {
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: 'Inter';
+}
+
+h2 h3 h4 {
+    font-family: 'Inter' !important;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-size: 32px;
+}
+
+.NavSubTitle {
+    color: #666666;
+    font-size: 14px;
+}
+
+.linkColor {
+    color: #666666;
+    text-decoration: none;
+}
+
+.SideBar a {
+    color: black;
+    text-decoration: none;
+  }
+
+
+  .iconPair:hover:not(.active) {
+    background-color: E9E9E9;
+  }
+  
+
+.fishElements {
+
+    padding: 1px 16px;
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .Fish {
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 10px;
+    font-family: Inter;
+
+  }
+
+  p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Inter;
+  }
+
+  b {
+    font-weight: bold !important;
+    font-family: Inter;
+  }
+
+  .imgCenter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mainScreenshot{
+    width: 75%;
+  }
+
+  .problemContainer {
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+  }
+
+  .problemText {
+    width: 40%
+  }
+
+  .problemImage12 {
+    width: 70%;
+  }
+
+
+
+h3 {
+    font-size: 24px;
+}
+
+.lofiImage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.lofiImage1{
+    width:75%;
+}
+.lofiImage2{
+    width:75%;
+}
+.lofiImage3{
+    width:75%;
+}
+.lofiImage4{
+    width:75%;
+}
+
+.lofiImage5{
+  width:85%;
+}
+.lofiImage6{
+  width:60%;
+}
+.lofiImage7{
+  width:50%;
+}
+
+
+
