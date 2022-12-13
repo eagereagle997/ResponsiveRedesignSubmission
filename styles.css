@@ -7,7 +7,7 @@ body {
     margin-left: 25px;
 }
 
-.TopBar{
+/* .TopBar{
     background-color: #DDEBFF;
     width: 100%;
     height: 120px;
@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: space-between;
     z-index: 1;
-}
+} */
 
 .accountCircle {
     width: 90px;
@@ -139,7 +139,7 @@ input[type="search"] {
 
     border-radius: 25px;
     background-color: white;
-    margin-top: 150px;
+    margin-top: 15px;
 
 }
 
@@ -266,6 +266,96 @@ h3 {
 }
 .lofiImage7{
   width:50%;
+}
+
+.introBlock {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: top;
+  justify-content: center;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+        -45deg, 
+        rgb(155, 203, 226) 0%, 
+        rgb(119, 138, 235) 25%, 
+        rgb(73, 69, 199) 51%, 
+        rgba(26, 0, 227, 0.404) 100%
+  );  
+  animation: AnimateBG 10s ease infinite;
+}
+
+.introBlock2 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: top;
+  justify-content: center;
+  background-size: 300% 300%;
+  margin-bottom: 5px;
+  background-image: linear-gradient(
+        -45deg, 
+        rgb(155, 203, 226) 0%, 
+        rgb(119, 138, 235) 25%, 
+        rgb(73, 69, 199) 51%, 
+        rgba(26, 0, 227, 0.404) 100%
+  );  
+  animation: AnimateBG 10s ease infinite;
+}
+
+@keyframes AnimateBG { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.topBar{
+  width:100%;
+  display: flex;
+  justify-content:space-between;
+}
+
+.nameLink {
+  color:white;
+  font-family:'Sofia', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 25px
+}
+
+.aboutMe {
+  color: white;
+  margin: 25px;  
+  font-family:Arial, Helvetica, sans-serif;
+
+  
+}
+
+.bottomBlock {
+  height: 250px;
+  background-color: rgb(73, 69, 199);
+}
+
+.linkContainer{
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 12px;
+}
+
+.bottomTitle{
+  color: white;
+  padding: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.bottomLink {
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 
