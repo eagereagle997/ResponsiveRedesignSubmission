@@ -324,15 +324,16 @@ a {
 .nameLink {
   color:white;
   font-family:'Sofia', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin: 25px
+  margin: 25px;
+  font-size: 35px;
 }
 
 .aboutMe {
   color: white;
-  margin: 25px;  
-  font-family:Arial, Helvetica, sans-serif;
-
-  
+  margin: 25px;
+  margin-top: 32px;  
+  font-family:Inter, Arial, Helvetica, sans-serif;
+  font-size: 25px;
 }
 
 .bottomBlock {
